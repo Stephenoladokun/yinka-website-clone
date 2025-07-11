@@ -1,0 +1,485 @@
+body {
+    font-family: "jost", sans-serif;
+    background-color: gray;
+    padding-top: 120px;
+    color: #18181b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    gap: 29vh;
+    background-color: #ffffff;
+    align-items: center;
+    padding-left: 7vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 7.5vh;
+    
+}
+
+.nav-bar a {
+    color: #0E0F1A;
+    text-decoration: none;
+    font-size: 17pt;
+    font-weight: 550;
+    padding: 0;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline; 
+}
+
+.bookings-btn {
+    border: none;
+    background-color: #1a1c30;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 18px 70px;
+    font-size: 14pt;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+.bookings-btn:hover {
+    opacity: 0.8;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    background: linear-gradient(rgba(48, 48, 48, 0.267), rgba(44, 44, 44, 0.45)), 
+              url(yinka\,background\ image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-texts {
+    margin-left: 7vh;
+}
+
+.section-texts p {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 65pt;
+    font-family: 'Briem Hand', cursive;
+    padding-bottom: 1vh;
+}
+
+.sub-title {
+    font-size: 25pt;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+.sub-p {
+    font-size: 17pt;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.btn {
+    display: flex;
+    gap: 2vh;
+    margin-top: 6vh;
+}
+
+.btn button {
+    border-radius: 30px;
+    padding: 17px 75px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.btn1 {
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+}
+
+.btn2:hover {
+    background-color: rgba(214, 214, 214, 0.219);
+}
+
+.moving-text {
+    display: flex;
+    gap: 3vh;
+    font-size: 18pt;
+    color: #ffffff;
+    justify-content: center;
+    background-color: #0E0F1A;;
+    padding: 2vh 0;
+    align-items: center;
+    font-family: 'Briem Hand', cursive;
+}
+
+.sec2 {
+    display: flex;
+    padding: 14vh 0;
+    background-color: #ffffffe7;
+    gap: 14vh;
+    padding-left: 8vh;
+}
+
+.sec2 span {
+    color: #6204e7;
+}
+
+h2 {
+    font-size: 50pt;
+    width: 800px;
+    line-height: 1.3;
+    font-family: 'Briem Hand', cursive;
+}
+
+.sec2 p {
+    font-size: 17pt;
+    width: 730px;
+}
+
+.sec2-white-div {
+    background-color: #ffffff;
+    width: 720px;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(158, 2, 106, 0.25);
+    border-left: 5px solid #FF8ED9;
+}
+
+.sec2-white-div p {
+    width: 650px;
+}
+
+.more-btn {
+    border-radius: 30px;
+    padding: 20px 75px;
+    font-size: 15pt;
+    background-color: #0E0F1A;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.more-btn:hover {
+    background-color: #6204e7;
+}
+
+.linear-gradient-div {
+    height: 3vh;
+    background: linear-gradient(to right, #8379f9, #f89bc8);;
+}
+
+.sec3 {
+    padding-top: 12vh;
+    background-color: #5C2D82;
+    padding-bottom: 14vh;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Briem Hand', cursive;
+    font-size: 45pt;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.sec3-div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.firstchild-sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5vh;
+    padding: 30vh 0;
+    padding-left: 7vh;
+    padding-right: 15vh;
+    background-color: #d6f6ff;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sec3-div p {
+    font-size: 27pt;
+    font-weight: 500;
+    width: 650px;
+}
+
+.yinkaimage3 {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sticker1 {
+    position: absolute;
+    top: 96.9vh;
+    left: -0.2vh;
+}
+
+.play-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 0 rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: 50vh;
+    left: 153vh;
+}
+
+.play-button:hover {
+    transform: scale(1.05);
+}
+
+.play-button-circle {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-icon {
+    width: 0;
+    height: 0;
+    border-left: 14px solid #7e3ff2;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-left: 3px; 
+}
+
+.sec4 {
+    padding-top: 12vh;
+    background-color: #ffffff;
+    padding-bottom: 14vh;
+}
+
+.sec4-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+    margin-bottom: 7vh;
+}
+
+.sec4-div1 p {
+    font-size: 55pt;
+    font-family: 'Briem Hand', cursive;
+    font-weight: 600;
+}
+
+hr {
+    width: 450px;
+    border: solid 1px black;
+}
+
+.sec4-p2 {
+    color: #8319d5;
+}
+
+.sec4-div2 {
+    display: flex;
+    justify-content: center;
+    gap: 3.5vh;
+}
+
+.sec4-div2 div {
+    width: 500px;
+    background-color: #ffffff;
+    height: 430px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.sec4-div2 p {
+    font-weight: 500;
+    font-size: 15pt;
+    width: 450px;
+}
+
+.sec4-div3 {
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sec4-div3 button {
+    border-radius: 35px;
+    padding: 20px 80px;
+    font-size: 15pt;
+    background-color: #0E0F1A;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.sec4-div3 button:hover {
+    background-color: #6204e7;
+}
+
+
+.sec5 {
+    background-color: #f8f3fb;
+    padding-top: 12vh;
+    padding-bottom: 14vh;
+}
+
+h4 {
+    font-size: 55pt;
+    font-family: 'Briem Hand', cursive;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.spotify-playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.spotify-playlist-andimage {
+    display: flex;
+    gap: 22vh;
+    padding-left: 10vh;
+    margin-bottom: 5vh
+}
+
+.yinkaimage4-sticker {
+    position: relative;
+}
+
+.yinkasticker4 {
+    position: absolute;
+    top: 430px;
+    left: 340px;
+}
+
+.viewmore-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.viewmore-btn button {
+    border-radius: 35px;
+    padding: 20px 80px;
+    font-size: 15pt;
+    color: #0E0F1A;
+    border: solid 1px #9CA3AF;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.linear-gradient-div2 {
+    height: 3vh;
+    background: linear-gradient(to right, #8379f9, #f89bc8);;
+}
+
+footer {
+    background-color: #18181B;
+    padding-top: 12vh;
+    padding-bottom: 3vh;
+}
+
+.footer-navbar {
+    display: flex;
+    gap: 5vh;
+}
+
+.footer-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 550;
+    padding: 0;
+}
+
+.footer-navbar a:hover {
+    text-decoration: underline;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 2vh;
+    position: relative;
+}
+
+.footer-socials img {
+    width: 43px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+
+.logo-white {
+    position: absolute;
+    left: 8vh;
+}
+
+.footer-h1 {
+    color: #38383846;
+    font-size: 170pt;
+    font-family: 'Briem Hand', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
