@@ -1,7 +1,6 @@
 body {
     font-family: "jost", sans-serif;
     background-color: gray;
-    padding-top: 120px;
     color: #18181b;
 }
 
@@ -11,14 +10,17 @@ body {
     box-sizing: border-box;
 }
 
+.logo-color {
+    width: 170px;
+}
+
 header {
     display: flex;
-    gap: 29vh;
+    gap: 27.5vh;
     background-color: #ffffff;
     align-items: center;
-    padding-left: 7vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding: 1.5vh 0;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,7 +38,7 @@ header {
 .nav-bar a {
     color: #0E0F1A;
     text-decoration: none;
-    font-size: 17pt;
+    font-size: 14pt;
     font-weight: 550;
     padding: 0;
 }
@@ -50,8 +52,8 @@ header {
     background-color: #1a1c30;
     color: #ffffff;
     font-weight: bold;
-    padding: 18px 70px;
-    font-size: 14pt;
+    padding: 15px 60px;
+    font-size: 12pt;
     border-radius: 38px;
     cursor: pointer;
 }
@@ -60,18 +62,30 @@ header {
     opacity: 0.8;
 }
 
+.nav-button{
+    display: flex;
+    gap: 5px;
+}
+
+.nav-button div {
+    color: #0E0F1A;
+    height: 1px;
+    width: 5px;
+}
+
 .sec1 {
     display: flex;
     align-items: center;
     height: 85vh;
-    background: linear-gradient(rgba(48, 48, 48, 0.267), rgba(44, 44, 44, 0.45)), 
+    background: linear-gradient(rgba(14, 14, 14, 0.295), rgba(14, 14, 14, 0.45)), 
               url(yinka\,background\ image.png);
     background-size: cover;
     background-position: center;
+    margin-top: 90px;
 }
 
 .section-texts {
-    margin-left: 7vh;
+    margin-left: 8vh;
 }
 
 .section-texts p {
@@ -80,19 +94,19 @@ header {
 
 h1 {
     color: #ffffff;
-    font-size: 65pt;
+    font-size: 55pt;
     font-family: 'Briem Hand', cursive;
     padding-bottom: 1vh;
 }
 
 .sub-title {
-    font-size: 25pt;
+    font-size: 22pt;
     font-weight: bold;
     padding-bottom: 2vh;
 }
 
 .sub-p {
-    font-size: 17pt;
+    font-size: 14pt;
     line-height: 1.7;
     font-weight: 600;
 }
@@ -105,8 +119,8 @@ h1 {
 
 .btn button {
     border-radius: 30px;
-    padding: 17px 75px;
-    font-size: 15pt;
+    padding: 14px 60px;
+    font-size: 13pt;
     cursor: pointer;
 }
 
@@ -129,7 +143,7 @@ h1 {
 .moving-text {
     display: flex;
     gap: 3vh;
-    font-size: 18pt;
+    font-size: 15pt;
     color: #ffffff;
     justify-content: center;
     background-color: #0E0F1A;;
@@ -151,21 +165,22 @@ h1 {
 }
 
 h2 {
-    font-size: 50pt;
-    width: 800px;
+    font-size: 40pt;
+    width: 600px;
     line-height: 1.3;
     font-family: 'Briem Hand', cursive;
 }
 
 .sec2 p {
-    font-size: 17pt;
-    width: 730px;
+    font-size: 13.5pt;
+    width: 580px;
+    line-height: 1.5;
 }
 
 .sec2-white-div {
     background-color: #ffffff;
-    width: 720px;
-    height: 25vh;
+    width: 580px;
+    height: 30vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -176,16 +191,17 @@ h2 {
 }
 
 .sec2-white-div p {
-    width: 650px;
+    width: 520px;
 }
 
 .more-btn {
     border-radius: 30px;
-    padding: 20px 75px;
-    font-size: 15pt;
+    padding: 16px 60px;
+    font-size: 12pt;
     background-color: #0E0F1A;
     color: #ffffff;
     border: none;
+    margin-top: 5px;
     cursor: pointer;
 }
 
@@ -207,7 +223,7 @@ h2 {
 h3 {
     color: #ffffff;
     font-family: 'Briem Hand', cursive;
-    font-size: 45pt;
+    font-size: 35pt;
     text-align: center;
     margin-bottom: 5vh;
 }
@@ -222,26 +238,26 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2.5vh;
-    padding: 30vh 0;
-    padding-left: 7vh;
-    padding-right: 15vh;
+    gap: 3vh;
     background-color: #d6f6ff;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     position: relative;
     overflow: hidden;
+    padding: 0 9vh 0 7vh;
 }
 
 .sec3-div p {
-    font-size: 27pt;
+    font-size: 22pt;
     font-weight: 500;
-    width: 650px;
+    width: 550px;
+    line-height: 1.3;
 }
 
 .yinkaimage3 {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    height: 700px;
 }
 
 .sticker1 {
@@ -251,8 +267,8 @@ h3 {
 }
 
 .play-button {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 2px 0 rgb(255, 255, 255);
@@ -272,8 +288,8 @@ h3 {
 
 .play-button-circle {
     background-color: #ffffff;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -283,9 +299,9 @@ h3 {
 .play-icon {
     width: 0;
     height: 0;
-    border-left: 14px solid #7e3ff2;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border-left: 9px solid #7e3ff2;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
     margin-left: 3px; 
 }
 
@@ -304,13 +320,13 @@ h3 {
 }
 
 .sec4-div1 p {
-    font-size: 55pt;
+    font-size: 45pt;
     font-family: 'Briem Hand', cursive;
     font-weight: 600;
 }
 
 hr {
-    width: 450px;
+    width: 350px;
     border: solid 1px black;
 }
 
@@ -325,22 +341,22 @@ hr {
 }
 
 .sec4-div2 div {
-    width: 500px;
+    width: 400px;
     background-color: #ffffff;
-    height: 430px;
+    height: 350px;
     border-radius: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5vh;
+    gap: 3.5vh;
 }
 
 .sec4-div2 p {
     font-weight: 500;
-    font-size: 15pt;
-    width: 450px;
+    font-size: 12pt;
+    width: 350px;
 }
 
 .sec4-div3 {
@@ -351,8 +367,8 @@ hr {
 
 .sec4-div3 button {
     border-radius: 35px;
-    padding: 20px 80px;
-    font-size: 15pt;
+    padding: 16px 60px;
+    font-size: 12pt;
     background-color: #0E0F1A;
     color: #ffffff;
     border: none;
@@ -371,7 +387,7 @@ hr {
 }
 
 h4 {
-    font-size: 55pt;
+    font-size: 45pt;
     font-family: 'Briem Hand', cursive;
     text-align: center;
     margin-bottom: 5vh;
@@ -386,8 +402,8 @@ h4 {
 .spotify-playlist-andimage {
     display: flex;
     gap: 22vh;
-    padding-left: 10vh;
-    margin-bottom: 5vh
+    padding-left: 8vh;
+    margin-bottom: 8vh
 }
 
 .yinkaimage4-sticker {
@@ -396,8 +412,8 @@ h4 {
 
 .yinkasticker4 {
     position: absolute;
-    top: 430px;
-    left: 340px;
+    top: 365px;
+    left: 300px;
 }
 
 .viewmore-btn {
@@ -407,12 +423,17 @@ h4 {
 
 .viewmore-btn button {
     border-radius: 35px;
-    padding: 20px 80px;
-    font-size: 15pt;
+    padding: 16px 60px;
+    font-size: 12pt;
     color: #0E0F1A;
     border: solid 1px #9CA3AF;
     background-color: #ffffff;
     cursor: pointer;
+}
+
+.viewmore-btn button:hover {
+    background-color: #f0f0f0;
+
 }
 
 .linear-gradient-div2 {
@@ -422,7 +443,7 @@ h4 {
 
 footer {
     background-color: #18181B;
-    padding-top: 12vh;
+    padding-top: 13vh;
     padding-bottom: 3vh;
 }
 
@@ -434,7 +455,7 @@ footer {
 .footer-navbar a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 14pt;
+    font-size: 11pt;
     font-weight: 550;
     padding: 0;
 }
@@ -450,24 +471,19 @@ footer {
 }
 
 .footer-socials img {
-    width: 43px;
+    width: 35px;
 }
 
 .socials {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4vh;
-}
-
-.logo-white {
-    position: absolute;
-    left: 8vh;
+    gap: 5vh;
 }
 
 .footer-h1 {
     color: #38383846;
-    font-size: 170pt;
+    font-size: 135pt;
     font-family: 'Briem Hand', cursive;
     text-align: center;
     font-weight: bold;
@@ -476,8 +492,21 @@ footer {
 .footer-text {
     color: #ffffff;
     text-align: center;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3vh;
 }
 
+@media (max-width: 500px) {
+   header {
+    width: 100%;
+    padding: 3px 17px;
+   }
+
+   .logo-color {
+    width: 130px;
+   }
+}
 
 
 
